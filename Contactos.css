@@ -1,0 +1,30 @@
+body {
+    background-image: url("images/background.svg");
+    background-size: cover;
+}
+
+.caixa {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background: gray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.caixa p {
+    display: flex;
+    color: white;
+    text-align: left;
+    align-content: center;
+}
+
+.caixa img {
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+    width: 50%;
+}
+
+.caixa br {
+    margin-top: 20px;
+}
