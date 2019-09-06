@@ -77,14 +77,13 @@ a:active {
     bottom: 0;
     width: 100%;
     background-color: gray;
-    color: red;
     justify-items: baseline;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.rodape p {
+#texto {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -93,9 +92,7 @@ a:active {
     font-size: 30px;
     justify-items: baseline;
     text-align: center;
-}
-
-.rodape h6 {
+    color: red;
     width: 100%;
 }
 
@@ -104,16 +101,14 @@ a:active {
     width: 100%;
 }
 
-.rodape h3 {
+.rodape a {
+    color: black;
+    text-decoration: none;
+    display: block;
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
     margin-left: 5%;
-}
-
-.rodape a {
-    color: black;
-    text-decoration: none;
 }
 
 .rodape a:hover {
@@ -125,9 +120,22 @@ a:active {
     display: inline-block;
     width: 100%;
     padding: 20px;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    color: white;
 }
+
+.meio h1 {
+    align-self: center;
+    text-align: left;
+    font-size: 170%;
+    padding: 10px 10px 0px 10px;
+}
+
+
+/* .meio:hover h1 {
+    transform: translateY(-40%);
+} */
 
 .meio img {
     max-width: 100%;

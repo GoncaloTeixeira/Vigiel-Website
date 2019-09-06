@@ -2,7 +2,8 @@
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="BootStrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
 
@@ -29,7 +30,7 @@
         .carousel-inner>.item>img,
         .carousel-inner>.item>a>img {
             width: 100%;
-            margin: auto;
+            margin: 0;
         }
     </style>
     <style>
@@ -43,7 +44,7 @@
         $(function() {
             $("#slides").slidesjs({
                 width: 700,
-                height: 450
+                height: 460
             });
 
         });
@@ -52,14 +53,33 @@
 
 </head>
 
-<header class="smartphone">
+<header>
     <title>Vigiel</title>
-    <div class="topnav">
-        <a id="demo" class="topnav" href="index.html">Home</a>
-        <a href="Quem_Somos.html">Quem Somos</a>
-        <a class="topnav" href="Portefolio.html">Portefolio</a>
-        <a class="topnav" href="Contactos.html">Contactos</a>
-    </div>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Projetos</a>
+                <div class="dropdown-content">
+                    <a href="Eletricidade.html">Eletricidade</a>
+                    <a href="Vigilancia.html">Vigilancia</a>
+                    <a href="Corretor_De_Fator_De_Potencia.html">corretor de fator de Potencia</a>
+                </div>
+            </li>
+            <li><a href="Quem_Somos.html">Quem Somos</a></li>
+            <li><a href="Portefolio.html">Portefolio</a></li>
+            <li><a href="Contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
 
 
 </header>
@@ -122,23 +142,30 @@
 
 
     <div class="meio">
-        <img src="images/indexImage01.jpg" alt="Texto01" width="460" height="345"> Somos Lideres em qualidade e
+        <img src="images/indexImage01.jpg" alt="Texto01" width="460" height="345" data-aos="fade-right">
+        <h1 data-aos="fade-left">Somos uma empresa criada em 2000, sediada em Moçambique. A vigiel tem como objetivos permitir que todos tenha acesso a segurança e vigilancia, nesse ambito fazemos intalações personalizadas consoante as necessidades do cliente</h1>
+
+
     </div>
 
 
 
-    <div class="rodape">
+    <div class="rodape" data-aos="zoom-out">
         <h3>
-            <ul style="list-style-type: none;">
-                <li><a href="Eletricidade.html">Portefolio</a></li>
-                <li><a href="Contactos.html">Contactos</a></li>
-                <li><a href="Quem_Somos.html">Quem Somos</a></li>
+            <div>
+                <a href="Eletricidade.html">Portefolio</a>
+                <a href="Contactos.html">Contactos</a>
+                <a href="Quem_Somos.html">Quem Somos</a>
 
-                <li></li>
-            </ul>
+            </div>
+            <div>
+                eqwqeq
+            </div>
+
         </h3>
-        <p id="texto"> As Suas Instalações Em Boas Mãos</p>
+
     </div>
+    <p id="texto"> As Suas Instalações Em Boas Mãos</p>
 
 
 
@@ -147,7 +174,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 

@@ -36,23 +36,28 @@ body {
     height: 75%;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 30% 50% 20%;
-    grid-template-rows: 100%;
+    grid-template-columns: 30% 70%;
 }
 
 .text02 #texto {
-    font-size: 10;
+    font-size: 30;
     color: rgb(5, 92, 41);
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 1;
-    margin-top: 25%;
-    padding: 5px 12px;
+    grid-column: 2;
+    margin: 0 50px 0 50px;
 }
 
 .text02 #img1 {
     align-items: center;
     align-self: center;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.text03 {
+    background-color: rgba(117, 119, 216, 0.822);
+    width: 100%;
+    height: 75%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
