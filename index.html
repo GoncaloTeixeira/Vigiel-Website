@@ -2,29 +2,39 @@
 <html>
 
 <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/topnav.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="BootStrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="BootStrap/bootstrap-grid.min.css"> -->
+    <!-- <link rel="stylesheet" href="BootStrap/bootstrap.min.css"> -->
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
 
 
-    <link rel="stylesheet" href="topnav.css">
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen,print">
 
-    <script src="Scripts/index.js">
-    </script>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="Scripts/jquery.slides.js"></script>
-    <script src="Scripts/jquery.slides.min2.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="CSS/index.css" media="screen,print">
+
+
+
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+
 
     <style>
         .carousel-inner>.item>img,
@@ -33,95 +43,73 @@
             margin: 0;
         }
     </style>
-    <style>
-        #slides {
-            display: none;
-        }
-    </style>
-
-
-    <script>
-        $(function() {
-            $("#slides").slidesjs({
-                width: 700,
-                height: 460
-            });
-
-        });
-    </script>
 
 
 </head>
 
 <header>
     <title>Vigiel</title>
-    <nav>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Projetos</a>
-                <div class="dropdown-content">
-                    <a href="Eletricidade.html">Eletricidade</a>
-                    <a href="Vigilancia.html">Vigilancia</a>
-                    <a href="Corretor_De_Fator_De_Potencia.html">corretor de fator de Potencia</a>
-                </div>
-            </li>
-            <li><a href="Quem_Somos.html">Quem Somos</a></li>
-            <li><a href="Portefolio.html">Portefolio</a></li>
-            <li><a href="Contactos.html">Contactos</a></li>
-        </ul>
-    </nav>
-
-
-
-
-
-
-
-
 
 
 
 </header>
+<div class=""></div>
+
+<body media='all' class="C_imagens" style=" margin: 0 auto; padding: 0;background-image: url(images/background.svg);">
+
+    <!-- Navigation Bar -->
+    <div class="barra">
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdowns">
+            <a href="javascript:void(0)" class="dropbtn">Projetos</a>
+            <div class="dropdown-contents">
+                <a href="Eletricidade.html">Eletricidade</a>
+                <a href="Vigilancia.html">Vigilancia</a>
+                <a href="Corretor_De_Fator_De_Potencia.html">corretor de fator de Potencia</a>
+            </div>
+        </li>
+        <li><a href="Quem_Somos.html">Quem Somos</a></li>
+        <li><a href="Portefolio.html">Portefolio</a></li>
+        <li><a href="Contactos.html">Contactos</a></li>
+    </ul>
+
+    <!-- Navigation Bar -->
 
 
-<body class="smartphone" media='all' class="C_imagens" style=" margin: 0 auto; padding: 0;background-image: url(images/background.svg);">
+
+    <div class="container" style="height: 100%">
 
 
 
-    <div class="container">
-        <br>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <!-- <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-
-            </ol> -->
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-
-                <div class="item active">
-                    <a href="Eletricidade.html"><img src="images/EletricidadeLogo.jpg" alt="Chania" width="460" height="345"></a>
-                    <div class="carousel-caption">
+        <div id="myCarouselPrincipal" class="carousel slide " data-ride="carousel">
+            <br>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="Eletricidade.html"><img class="d-block w-100 h-100" src="images/EletricidadeLogo.jpg " alt="Chania "></a>
+                    <div class="carousel-caption ">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
 
-                <div class="item">
-                    <a href="Vigilancia.html"><img src="images/VigilanciaLogo.jpg" alt="Chania" width="460" height="345"></a>
-                    <div class="carousel-caption">
+                <div class="carousel-item">
+                    <a href="Vigilancia.html"><img class="d-block w-100 h-100" src="images/VigilanciaLogo.jpg " alt="Chania "></a>
+                    <div class="carousel-caption ">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
 
-                <div class="item">
-                    <a href="Corretor_De_Fator_De_Potencia.html"><img src="images/Logo VFP.jpg" alt="Flower" width="460" height="345"></a>
-                    <div class="carousel-caption">
+                <div class="carousel-item">
+                    <a href="Corretor_De_Fator_De_Potencia.html "><img class="d-block w-100 h-100" src="images/Logo VFP.jpg " alt="Flower "></a>
+                    <div class="carousel-caption ">
                         <h3></h3>
                         <p></p>
                     </div>
@@ -129,43 +117,47 @@
             </div>
 
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#myCarouselPrincipal" role="button " data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <a class="carousel-control-next" href="#myCarouselPrincipal" role="button " data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
 
 
-    <div class="meio">
-        <img src="images/indexImage01.jpg" alt="Texto01" width="460" height="345" data-aos="fade-right">
-        <h1 data-aos="fade-left">Somos uma empresa criada em 2000, sediada em Moçambique. A vigiel tem como objetivos permitir que todos tenha acesso a segurança e vigilancia, nesse ambito fazemos intalações personalizadas consoante as necessidades do cliente</h1>
+
+    <div class="meio" style="width: 100% ">
+        <img src="images/indexImage01.jpg " alt="Texto01 " width="400 " height="315 " data-aos="fade-right ">
+        <h1 data-aos="fade-left ">Somos uma empresa criada em 2000, sediada em Moçambique. A vigiel tem como objetivos permitir que todos tenham acesso à segurança e vigilância, nesse ambito fazemos intalações personalizadas consoante as necessidades de cada cliente</h1>
 
 
     </div>
 
 
 
-    <div class="rodape" data-aos="zoom-out">
-        <h3>
-            <div>
-                <a href="Eletricidade.html">Portefolio</a>
-                <a href="Contactos.html">Contactos</a>
-                <a href="Quem_Somos.html">Quem Somos</a>
+    <div class="rodape row ">
 
-            </div>
-            <div>
-                eqwqeq
-            </div>
+        <div class="colu-1 ">
+            <h1>Outras Informações</h1>
+            <a href="Portefolio.html ">Portefolio</a>
+            <a href="Contactos.html ">Contactos</a>
+            <a href="Quem_Somos.html ">Quem Somos</a>
 
-        </h3>
+        </div>
+        <div class="colu-1 ">
+            <h1>Serviços</h1>
+            <a href="Eletricidade.html ">Instalações Eletricas</a>
+            <a href="Vigilancia.html ">Vigilancia Eletronica</a>
+            <a href="Corretor_De_Fator_De_Potencia.html ">Corretor de fator de Potencia</a>
+        </div>
 
+
+        <p id="texto"> As Suas Instalações Em Boas Mãos</p>
     </div>
-    <p id="texto"> As Suas Instalações Em Boas Mãos</p>
 
 
 
@@ -174,7 +166,14 @@
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+
+    <script src="Scripts/index.js "></script>
+    <script src="Scripts/topnave.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
         AOS.init();
     </script>
