@@ -19,8 +19,8 @@ body {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 3;
-    font-size: 30;
-    margin: 50px;
+    font-size: 20;
+    margin: 10%;
     justify-self: right;
 }
 

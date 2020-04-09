@@ -1,0 +1,204 @@
+            body {
+                background-color: powderblue;
+                /*background: lightblue url("Fundo.jpg") no-repeat;*/
+                background: towperblue;
+                background: no-repeat;
+                background-size: cover;
+            }
+            /*  * { margin: 0; padding: 0; } */
+            
+            .row::after {
+                content: "";
+                clear: both;
+                display: grid;
+            }
+            
+            [class*="col-"] {
+                float: right;
+                padding: 15px;
+            }
+            
+            .colu-1 {
+                width: 25%;
+            }
+            
+            #fundo {
+                background-color: #a3a9fa;
+            }
+            
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            
+            .aside {
+                width: 200px;
+            }
+            
+            .fleft {
+                float: left;
+            }
+            
+            .fright {
+                float: right;
+            }
+            
+            .aside {
+                width: 200px;
+            }
+            
+            .centro {
+                display: inline-block;
+                margin: auto;
+            }
+            
+            .centrar {
+                margin: 50px 150px 50px 150px;
+            }
+            
+            .centrar img {
+                margin: auto;
+            }
+            
+            .rodape {
+                position: relative;
+                left: 0;
+                width: 101%;
+                bottom: 0;
+                background-color: gray;
+                justify-items: baseline;
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
+            
+            .rodape a:visited {
+                text-decoration: none;
+            }
+            
+            .rodape a {
+                color: black;
+                text-decoration: none;
+                display: block;
+                font-size: 20px;
+                line-height: 1.5;
+                text-align: left;
+                margin-left: 10%;
+            }
+            
+            .rodape a:hover {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .rodape p {
+                margin-bottom: 0;
+            }
+            
+            .rodape h1 {
+                margin-top: 0;
+                margin-left: 10%;
+                text-align: left;
+                font-size: 25px;
+                color: black
+            }
+            
+            .meio {
+                display: inline-block;
+                width: 100%;
+                padding: 0;
+                padding-top: 20%;
+                padding-bottom: 30%;
+                padding-right: 0;
+                color: white;
+            }
+            
+            .meio h1 {
+                align-self: center;
+                text-align: left;
+                font-size: 170;
+                padding: 0;
+                margin: 0;
+            }
+            
+            .meio img {
+                float: right;
+            }
+            
+            #texto {
+                position: static;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                font-family: cursive;
+                font-size: 30px;
+                text-align: center;
+                justify-self: end;
+                color: red;
+                width: 100%;
+            }
+            
+            @media screen and (max-width: 700px) {
+                #texto {
+                    position: static;
+                    left: 0;
+                    width: 100%;
+                    font-family: Serif;
+                    font-size: 20px;
+                    text-align: center;
+                    color: red;
+                }
+                .meio {
+                    justify-content: space-around;
+                }
+                .meio h1 {
+                    font-size: 100%;
+                    text-align: left;
+                }
+                .meio img {
+                    display: flex;
+                    max-width: 100%;
+                    align-items: center;
+                    float: none;
+                }
+                .colu-1 {
+                    width: 50%;
+                }
+                .rodape {
+                    width: 104%;
+                }
+                .rodape h1 {
+                    margin-top: 0;
+                    margin-left: 10%;
+                    text-align: left;
+                    font-size: 20px;
+                    color: black
+                }
+                .rodape a {
+                    font-size: 15px;
+                    line-height: 1.5;
+                    text-align: left;
+                    margin-left: 10%;
+                }
+            }
+            
+            .carousel-control-prev-icon {
+                margin-left: -100px;
+            }
+            
+            .carousel-control-next-icon {
+                margin-left: 100px;
+            }
+            
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                /* background-image: url("../../Contols_-_Essential-01-256.png"); */
+                height: 30px;
+                width: 30px;
+                color: black;
+                outline: black;
+                background-color: rgba(0, 0, 0, 0.85);
+                background-size: 100%, 100%;
+                border-radius: 50%;
+                /* border: 1px solid black; */
+            }
