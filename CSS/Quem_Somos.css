@@ -13,8 +13,10 @@ body {
 
 .texto h1 {
     color: black;
-    font-size: 15px;
-    padding: 5%;
+    font-size: 20px;
+margin-left: 5%;
+margin-right: 5%;
+    /* background-color:rgba(113, 224, 68, 0.692); */
 }
 
 .texto img {

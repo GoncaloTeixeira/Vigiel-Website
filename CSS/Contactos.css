@@ -16,7 +16,7 @@ body {
     display: flex;
     color: white;
     text-align: left;
-    align-content: center;
+    align-items: center;
 }
 
 .caixa img {
@@ -26,5 +26,6 @@ body {
 }
 
 .caixa br {
+
     margin-top: 20px;
 }

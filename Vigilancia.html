@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="CSS/Vigilancia.css">
 
 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+    
 </head>
 
 <header>
@@ -26,39 +35,63 @@
 
 
 
+
     <!-- Navigation Bar -->
-    <ul>
-        <li><a href=" index.html ">Home</a></li>
-        <li class="dropdowns ">
-            <a href="javascript:void(0) " class="dropbtn ">Projetos</a>
-            <div class="dropdown-contents ">
-                <a href="Eletricidade.html ">Eletricidade</a>
-                <a href="Vigilancia.html " class="active ">Vigilancia</a>
-                <a href="Corretor_De_Fator_De_Potencia.html ">corretor de fator de Potencia</a>
+    <div class="barra">
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdowns">
+            <a href="javascript:void(0)" class="dropbtn">Projetos</a>
+            <div class="dropdown-contents">
+                <a href="Eletricidade.html">Eletricidade</a>
+                <a href="Vigilancia.html">Vigilancia</a>
+                <a href="Corretor_De_Fator_De_Potencia.html">corretor de fator de Potencia</a>
             </div>
         </li>
-        <li><a href="Quem_Somos.html ">Quem Somos</a></li>
-        <li><a href="Portefolio.html ">Portefolio</a></li>
-        <li><a href="Contactos.html ">Contactos</a></li>
+        <li><a href="Quem_Somos.html">Quem Somos</a></li>
+        <li><a href="Portefolio.html">Portefolio</a></li>
+        <li><a href="Contactos.html">Contactos</a></li>
     </ul>
+
+    <!-- Navigation Bar -->
+
+
+    
+
     <div class="text-center ">
-        <H1 style="color:red; ">Gosta de se Sentir Seguro?</H1>
-
+        <H1 style="color:red; ">Gosta de se sentir seguro?</H1>
     </div>
-    <div class="  container">
+
+    <div class="text-center">
         <H3 style="color:whitesmoke; ">Garantimos a sua segurança, para que não se tenha de preocupar com a sua propriedade</H3>
-        <div class="row mb-2">
 
-            <img src="images/Vig_1.jpg " class="col " style="width: 25%;background-color: gray; " alt=" ">
-        </div>
-        <div class="row" style="margin-top:10px;">
-            <img src="images/Vig_2.jpg " class="col-8 " style="width: 47%; " alt=" ">
-        </div>
+            <div class="container">
+               
+                    <div class="col-md-6 ">
+                        <img src="images/Vig_1.jpg " class="img-fluid" style="width:50%;background-color: gray; " alt="Security Camera">
+                    </div>
+                    <div class="col-md-5 ">
+                        <img src="images/Vig_2.jpg " class="img-fluid" style=" " alt="Electric Fence">
+                    </div>  
+                
+            </div>
     </div>
 
 
 
-
+    <script src="Scripts/topnave.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
